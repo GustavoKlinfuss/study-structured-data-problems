@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a36b70a7-8201-449e-9905-64c8067f2e7d" name="Default Changelist" comment="" />
+    <list default="true" id="a36b70a7-8201-449e-9905-64c8067f2e7d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/AF1/AF1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/AF1/AF1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/AF1/Expressao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/AF1/Expressao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/AF1/Pilha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/AF1/Pilha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/AF2/AF2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/AF2/AF2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/AF2/Fila.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/AF2/Fila.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/Aula01/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/Aula01/Funcionario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/Aula01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/Aula01/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/Aula01/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/Aula01/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/Aula02/AgendaTelefonica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/Aula02/AgendaTelefonica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/Aula02/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/Aula02/Aluno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/Aula02/Aula02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/Aula02/Aula02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/Aula02/Matematica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/Aula02/Matematica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaAvancado/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/JavaAvancado/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaAvancado/Gustavo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/JavaAvancado/Gustavo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaAvancado/JavaAvancado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/JavaAvancado/JavaAvancado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Contador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Contador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Continente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Continente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Pais.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Pais.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Automovel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Automovel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Carro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Carro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Motocicleta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Motocicleta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AF1/Pilha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AF1/Pilha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AF2/AF2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AF2/AF2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AF2/Fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AF2/Fila.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,9 +111,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Program Files/Java JDK" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.AF2">
+  <component name="RunManager" selected="Application.AF1">
     <configuration name="AF1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AF1.AF1" />
       <module name="RPEC" />
@@ -163,10 +198,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AF2" />
+      <item itemvalue="Application.AF1" />
+      <item itemvalue="Application.Aula02" />
+      <item itemvalue="Application.JavaAvancado" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AF2" />
         <item itemvalue="Application.AF1" />
+        <item itemvalue="Application.AF2" />
         <item itemvalue="Application.JavaAvancado" />
         <item itemvalue="Application.Aula02" />
         <item itemvalue="Application.Main (1)" />
@@ -194,5 +237,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

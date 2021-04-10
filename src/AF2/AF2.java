@@ -2,9 +2,7 @@ package AF2;
 
 public class AF2 {
     public static void main(String[] args) throws Exception {
-        Fila f = new Fila();
-
-        f.inicializa(7);
+        Fila f = new Fila(7);
 
         f.insere(1);
         f.insere(6);
@@ -17,8 +15,8 @@ public class AF2 {
 
         f.insere(1);
         f.insere(3);
-        var b = f.remove();
-        System.out.println(b);
+        imprimirRemovido(f.remove());
+
         f.insere(-342);
         f.imprime();
 
@@ -49,6 +47,10 @@ public class AF2 {
         f.insere(2);
         f.insere(2);
         f.imprime();
+
+        f.remove();
+        f.remove();
+        f.remove();
     }
 
     private static void imprimirRemovido(int removido) throws Exception {
