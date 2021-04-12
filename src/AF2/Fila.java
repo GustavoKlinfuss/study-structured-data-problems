@@ -27,8 +27,6 @@ public class Fila {
 
         _ultimo += 1;
         _dados[_ultimo % _dados.length] = elemento;
-
-        // System.out.println("Inserido: Primeiro = " + _primeiro + ", Último = " + _ultimo);
     }
 
     public int remove() throws Exception {
@@ -40,8 +38,6 @@ public class Fila {
 
         if(_primeiro >= _dados.length)
             reseta();
-
-        // System.out.println("Removido: Primeiro = " + _primeiro + ", Último = " + _ultimo);
 
         return resultado;
     }
@@ -57,6 +53,49 @@ public class Fila {
 
             if(i == _ultimo)
                 System.out.println(" | ");
+        }
+    }
+
+    public int tamanho() {
+        return _ultimo - _primeiro + 1;
+    }
+}
+
+class Merge {
+    public Fila mergeDeFilasOrdenadas(Fila fila1, Fila fila2) throws Exception {
+        Fila filaFinal = new Fila(fila1.tamanho() + fila2.tamanho());
+
+        if (fila1.vazia()) return completar(filaFinal, fila2);
+        if (fila2.vazia()) return completar(filaFinal, fila1);
+
+        int e1 = fila1.remove();
+        int e2 = fila2.remove();
+
+        while (true) {
+            if (e1 <= e2) {
+                filaFinal.insere(e1);
+                if (fila1.vazia()) {
+                    filaFinal.insere(e2);
+                    return completar(filaFinal, fila2);
+                }
+                e1 = fila1.remove();
+            }
+            else {
+                filaFinal.insere(e2);
+                if (fila2.vazia()) {
+                    filaFinal.insere(e1);
+                    return completar(filaFinal, fila1);
+                }
+                e2 = fila2.remove();
+            }
+        }
+    }
+
+    private Fila completar(Fila filaFinal, Fila filaAuxiliar) throws Exception {
+        while(true) {
+            if (filaAuxiliar.vazia())
+                return filaFinal;
+            filaFinal.insere(filaAuxiliar.remove());
         }
     }
 }
