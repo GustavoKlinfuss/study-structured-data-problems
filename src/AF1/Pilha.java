@@ -42,7 +42,7 @@ public class Pilha {
     }
 }
 
-class Expressao {
+class ValidadorDeExpressoes {
     private Pilha _pilha;
 
     public boolean validarExpressao(String expressao) throws Exception {

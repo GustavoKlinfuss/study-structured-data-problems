@@ -15,7 +15,7 @@ public class AF1 {
         System.out.println(" Desempilhado 2: " + d2);
         System.out.println(" Topo: " + topo);
 
-        Expressao ev = new Expressao();
+        ValidadorDeExpressoes ev = new ValidadorDeExpressoes();
 
         String exp1 = "({1-2) + 3}";
         String exp2 = "{(8+[5*3] )-10}";
