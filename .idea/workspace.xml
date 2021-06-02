@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a36b70a7-8201-449e-9905-64c8067f2e7d" name="Default Changelist" comment="# merge of queue">
-      <change afterPath="$PROJECT_DIR$/src/AF4/AF4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arvore/Arvore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arvore/Rodante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AulaRecursividade01/Recursividade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListaDuplamenteEncadeada/ListaDuplamenteEncadeada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListaDuplamenteEncadeada/NodeDE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListaDuplamenteEncadeada/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/AF1/AF1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/AF1/AF1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/AF1/Expressao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/AF2/AF2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/AF2/AF2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/AF2/Fila.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/AF2/Fila.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaAvancado/Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaAvancado/Gustavo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaAvancado/JavaAvancado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Contador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Continente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Pais.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Automovel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Carro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Motocicleta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AF3/ListaEncadeada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AF3/ListaEncadeada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AF3/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AF3/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAvancado/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAvancado/JavaAvancado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasico/Contador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasico/Continente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasico/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasico/Pais.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TesteCarros/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="a36b70a7-8201-449e-9905-64c8067f2e7d" name="Default Changelist" comment="# adding gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +92,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\Personal\RPEC" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Rodante">
     <configuration name="AF4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -260,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619227331008</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="# recent works">
+      <created>1622603254334</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622603254334</updated>
+    </task>
+    <task id="LOCAL-00008" summary="# adding gitignore">
+      <created>1622603305033</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622603305033</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,7 +280,9 @@
     <MESSAGE value="# creation of linked queue" />
     <MESSAGE value="# creation of dynamic pill and dynamic queue" />
     <MESSAGE value="# adjusts in workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="# adjusts in workspace" />
+    <MESSAGE value="# recent works" />
+    <MESSAGE value="# adding gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="# adding gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
