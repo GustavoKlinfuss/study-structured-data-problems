@@ -5,14 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a36b70a7-8201-449e-9905-64c8067f2e7d" name="Default Changelist" comment="# merge of queue">
-      <change afterPath="$PROJECT_DIR$/src/AF3/AF3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AF3/ListaEncadeada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AF3/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AS1/AS1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AS1/FilaDinamica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AS1/PilhaDinamica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AF4/AF4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arvore/Arvore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arvore/Rodante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AulaRecursividade01/Recursividade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaDuplamenteEncadeada/ListaDuplamenteEncadeada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaDuplamenteEncadeada/NodeDE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaDuplamenteEncadeada/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/AF1/AF1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/AF1/AF1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/AF1/Expressao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/AF2/AF2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/AF2/AF2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RPEC/AF2/Fila.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPEC/AF2/Fila.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaAvancado/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaAvancado/Gustavo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaAvancado/JavaAvancado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Contador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Continente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/JavaBasico/Pais.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Automovel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Carro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPEC/TesteCarros/Motocicleta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AF3/ListaEncadeada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AF3/ListaEncadeada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AF3/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AF3/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAvancado/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAvancado/JavaAvancado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaBasico/Contador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaBasico/Continente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaBasico/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaBasico/Pais.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteCarros/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,39 +126,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.AF3">
-    <configuration name="AF1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AF1.AF1" />
+  <component name="RunManager" selected="Application.Rodante">
+    <configuration name="AF4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AF4.AF4" />
       <module name="RPEC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AF1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AF2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AF2.AF2" />
-      <module name="RPEC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AF2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AF3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AF3.AF3" />
-      <module name="RPEC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AF3.*" />
+          <option name="PATTERN" value="AF4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +153,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaAvancado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAvancado.JavaAvancado" />
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testes.Principal" />
       <module name="RPEC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaAvancado.*" />
+          <option name="PATTERN" value="Testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recursividade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AulaRecursividade01.Recursividade" />
+      <module name="RPEC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AulaRecursividade01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Rodante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arvore.Rodante" />
+      <module name="RPEC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arvore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,19 +193,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AF2" />
-      <item itemvalue="Application.AF1" />
-      <item itemvalue="Application.JavaAvancado" />
-      <item itemvalue="Application.AF3" />
+      <item itemvalue="Application.AF4" />
       <item itemvalue="Application.AS1" />
+      <item itemvalue="Application.Principal" />
+      <item itemvalue="Application.Recursividade" />
+      <item itemvalue="Application.Rodante" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AF3" />
+        <item itemvalue="Application.Rodante" />
+        <item itemvalue="Application.AF4" />
+        <item itemvalue="Application.Recursividade" />
         <item itemvalue="Application.AS1" />
-        <item itemvalue="Application.AF2" />
-        <item itemvalue="Application.AF1" />
-        <item itemvalue="Application.JavaAvancado" />
+        <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +239,28 @@
       <option name="project" value="LOCAL" />
       <updated>1619227188683</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="# creation of linked queue">
+      <created>1619227275216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619227275216</updated>
+    </task>
+    <task id="LOCAL-00005" summary="# creation of dynamic pill and dynamic queue">
+      <created>1619227313752</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619227313752</updated>
+    </task>
+    <task id="LOCAL-00006" summary="# adjusts in workspace">
+      <created>1619227331008</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619227331008</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,7 +292,30 @@
     <MESSAGE value="# merge of queue" />
     <MESSAGE value="# renaming class Expressao from ValidadorDeExpressoes" />
     <MESSAGE value="# creation of linked queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="# creation of linked queue" />
+    <MESSAGE value="# creation of dynamic pill and dynamic queue" />
+    <MESSAGE value="# adjusts in workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="# adjusts in workspace" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arvore/Rodante.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arvore/Arvore.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arvore/Rodante.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -17,14 +17,13 @@ public class Node {
         if(_info == info)
             return this;
         if(_prox == null)
-            throw new Exception("Não há este nó");
+            throw new Exception("O nó especificado não foi encontrado");
         return _prox.getNode(info);
     }
 
     public Node getUltimo() {
         if(_prox == null)
             return this;
-
         return _prox.getUltimo();
     }
 
@@ -47,7 +46,9 @@ public class Node {
         }
     }
 
-    public Node getPenultimo() {
+    public Node getPenultimo() throws Exception {
+        if(_prox == null)
+            throw new Exception("Não tem penultimo");
         if(this._prox._prox == null)
             return this;
         return _prox.getPenultimo();

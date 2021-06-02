@@ -12,10 +12,14 @@ public class ListaEncadeada {
     }
 
     public void inserePrimeiro(int info) {
-        if(vazia())
-            _lista = new Node(info);
-        else
-            _lista = new Node(info, _lista);
+        _lista = new Node(info, _lista);
+    }
+
+    public static void insereDepois(Node node, int info) throws Exception {
+        if(node == null)
+            throw new Exception("Node informado é nulo");
+
+        node.insereDepoisDesteNode(info);
     }
 
     public void insereUltimo(int info) {
@@ -23,13 +27,6 @@ public class ListaEncadeada {
             _lista = new Node(info);
         else
             _lista.getUltimo().insereDepoisDesteNode(info);
-    }
-
-    public void insereDepois(Node node, int info) throws Exception {
-        if(node == null)
-            throw new Exception("Node informado é nulo");
-
-        node.insereDepoisDesteNode(info);
     }
 
     public void insereOrdenado(int info) {
