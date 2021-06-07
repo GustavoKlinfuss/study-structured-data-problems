@@ -127,5 +127,10 @@ public class AS2 {
         avl4.preOrdem();
         avl4.inOrdem();
         avl4.posOrdem();
+        avl4.remover(9);
+        avl4.preOrdem();
+        avl4.inOrdem();
+        avl4.posOrdem();
+
     }
 }

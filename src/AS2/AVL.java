@@ -22,7 +22,7 @@ public class AVL {
     public void preOrdem() {
         System.out.print("Pré Ordem -| ");
         if(!isVazia())
-            _raiz.preOrdem();
+            this._raiz.preOrdem();
         System.out.println();
     }
 
@@ -48,18 +48,10 @@ public class AVL {
 
     public void remover(int info) {
         if(!isVazia()) {
-            if (this._raiz.getInfo() == info) {
-                System.out.println("Removido: " + "\u001B[31m" + info + "\u001B[0m");
-                if (this._raiz.isFolha()) {
-                    this._raiz = null;
-                }
-                else {
-                    this._raiz = this._raiz.remover();
-                }
-            }
-            else {
-                this._raiz = this._raiz.removerEBalancear(info);
-            }
+            if (this._raiz.getInfo() == info)
+                this._raiz = this._raiz.remover();
+            else
+                this._raiz = this._raiz.encontrarERemover(info);
         }
     }
 }
@@ -117,7 +109,7 @@ class Node {
         return this;
     }
 
-    public static Node inserirOuProsseguir(Node node, int info) {
+    private static Node inserirOuProsseguir(Node node, int info) {
         if (node == null)
             return new Node(info);
         return node.inserirEBalancear(info);
@@ -127,7 +119,7 @@ class Node {
         return this._direita == null && this._esquerda == null;
     }
 
-    public Node removerEBalancear(int info) {
+    public Node encontrarERemover(int info) {
         if(info > this._info)
             this._direita = removerOuProsseguir(this._direita, info);
         else
@@ -142,67 +134,64 @@ class Node {
 
     private static Node removerOuProsseguir(Node node, int info) {
         if(node != null) {
-            if(node._info == info) {
-                System.out.println("Removido: " + "\u001B[31m" + info + "\u001B[0m");
-                if(node.isFolha()) return null;
+            if(node._info == info)
                 return node.remover();
-            }
 
-            return node.removerEBalancear(info);
+            return node.encontrarERemover(info);
         }
 
         return null;
     }
 
     public Node remover() {
-        Node removido;
+        System.out.println("Removido: " + "\u001B[31m" + this._info + "\u001B[0m");
+
+        if(this.isFolha())
+            return null;
 
         if(this._esquerda != null) {
             if(this._esquerda._direita == null) {
-                removido = removerComOMaiorSendoAEsquerda();
+                removerComOMaiorSendoAEsquerda();
             }
             else {
-                removido = removerComMaiorDaEsquerda();
+                removerComMaiorDaSubArvoreEsquerda();
             }
         }
         else {
-            removido = removerSemEsquerda();
+            removerSemEsquerda();
         }
 
         int fb = this.fatorDeBalanceamento();
         if (fb < -1 || fb > 1)
             return balancear(fb);
-        return removido;
+        return this;
     }
 
-    private Node removerComOMaiorSendoAEsquerda() {
+    private void removerComOMaiorSendoAEsquerda() {
         Node nodeEsquerda = this._esquerda;
         this._info = nodeEsquerda._info;
         this._esquerda = nodeEsquerda._esquerda;
         nodeEsquerda._esquerda = null;
-        return this;
     }
 
-    private Node removerComMaiorDaEsquerda() {
+    private void removerComMaiorDaSubArvoreEsquerda() {
         Node paiDoNodeRef = this._esquerda.encontrarPaiDaMaiorSubArvore();
         Node nodeRef = paiDoNodeRef._direita;
         this._info = nodeRef._info;
         paiDoNodeRef._direita = nodeRef._esquerda;
         this._esquerda = _esquerda.balancearEsquerda();
-        return this;
     }
 
-    private Node removerSemEsquerda() {
+    private void removerSemEsquerda() {
         Node nodeRef = this._direita;
         this._info = nodeRef._info;
         this._esquerda = nodeRef._esquerda;
         this._direita = nodeRef._direita;
         nodeRef._esquerda = null;
         nodeRef._direita = null;
-        return this;
     }
 
-    public Node balancearEsquerda() {
+    private Node balancearEsquerda() {
         if(this._esquerda != null)
             this._esquerda = this._esquerda.balancearEsquerda();
 
@@ -212,7 +201,7 @@ class Node {
         return this;
     }
 
-    public Node encontrarPaiDaMaiorSubArvore() {
+    private Node encontrarPaiDaMaiorSubArvore() {
         if(this._direita._direita == null)
             return this;
         return this._direita.encontrarPaiDaMaiorSubArvore();
@@ -240,7 +229,7 @@ class Node {
         return getAltura(_esquerda) - getAltura(_direita);
     }
 
-    public Node balancear(int fb) {
+    private Node balancear(int fb) {
         System.out.println("Balanceado");
 
         if(fb == 2) {

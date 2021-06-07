@@ -272,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623024543504</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="# reparando pequenas coisas">
+      <created>1623027009842</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1623027009842</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,7 +321,19 @@
     <MESSAGE value="# recent works" />
     <MESSAGE value="# adding gitignore" />
     <MESSAGE value="# ta funcionando" />
-    <option name="LAST_COMMIT_MESSAGE" value="# ta funcionando" />
+    <MESSAGE value="# reparando pequenas coisas" />
+    <option name="LAST_COMMIT_MESSAGE" value="# reparando pequenas coisas" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AS2/AVL.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
