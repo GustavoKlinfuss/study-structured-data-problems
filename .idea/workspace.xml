@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a36b70a7-8201-449e-9905-64c8067f2e7d" name="Default Changelist" comment="mod">
-      <change afterPath="$PROJECT_DIR$/src/AS2/AVL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arvore/Arvore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arvore/Rodante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AS2/AS2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AS2/AS2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AS2/AS2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AS2/AVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AS2/AVL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622603369582</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="# ta funcionando">
+      <created>1623024543504</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623024543504</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,18 +313,8 @@
     <MESSAGE value="# adjusts in workspace" />
     <MESSAGE value="# recent works" />
     <MESSAGE value="# adding gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="# adding gitignore" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AS2/AS2.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="# ta funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="# ta funcionando" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

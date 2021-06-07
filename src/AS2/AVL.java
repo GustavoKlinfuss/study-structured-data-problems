@@ -20,42 +20,47 @@ public class AVL {
     }
 
     public void preOrdem() {
-        System.out.print("\u001B[33m" + "Pré Ordem" + "\u001B[0m" + " -| ");
+        System.out.print("Pré Ordem -| ");
         if(!isVazia())
             _raiz.preOrdem();
         System.out.println();
     }
 
     public void inOrdem() {
-        System.out.print("\u001B[34m" + "In Ordem " + "\u001B[0m" + " -| ");
+        System.out.print("In Ordem  -| ");
         if(!isVazia())
             this._raiz.inOrdem();
         System.out.println();
     }
 
     public void posOrdem() {
-        System.out.print("\u001B[35m" + "Pós Ordem" + "\u001B[0m" + " -| ");
+        System.out.print("Pós Ordem -| ");
         if(!isVazia())
             this._raiz.posOrdem();
         System.out.println();
     }
 
-//    public Node encontrar(int info) {
-//        if(isVazia())
-//            return null;
-//        return this._raiz.encontrar(info);
-//    }
+    public boolean verificarSeExiste(int info) {
+        if(isVazia())
+            return false;
+        return this._raiz.verificarSeExiste(info);
+    }
 
     public void remover(int info) {
-        if(!isVazia())
-            if(this._raiz.getInfo() == info) {
-                if(this._raiz.isFolha())
+        if(!isVazia()) {
+            if (this._raiz.getInfo() == info) {
+                System.out.println("Removido: " + "\u001B[31m" + info + "\u001B[0m");
+                if (this._raiz.isFolha()) {
                     this._raiz = null;
-                else
-                    this._raiz.remover();
+                }
+                else {
+                    this._raiz = this._raiz.remover();
+                }
             }
-            else
+            else {
                 this._raiz = this._raiz.removerEBalancear(info);
+            }
+        }
     }
 }
 
@@ -81,37 +86,23 @@ class Node {
         return 1 + alturaDireita;
     }
 
-    private static Node rotacionarADireita(Node node) {
-        Node novaRaiz = node._esquerda;
-        Node temp = novaRaiz._direita;
-        novaRaiz._direita = node;
-        node._esquerda = temp;
-        return novaRaiz;
-    }
-
-    private static Node rotacionarAEsquerda(Node node) {
-        Node novaRaiz = node._direita;
-        Node temp = novaRaiz._esquerda;
-        novaRaiz._esquerda = node;
-        node._direita = temp;
-        return novaRaiz;
-    }
-
     public int getInfo() {
         return _info;
     }
 
-//    public Node encontrar(int info) {
-//        if(info == _info) return this;
-//
-//        if(info > _info)
-//            if(this._direita != null)
-//                return this._direita.encontrar(info);
-//        else if(this._esquerda != null)
-//            return this._esquerda.encontrar(info);
-//
-//        return null;
-//    }
+    public boolean verificarSeExiste(int info) {
+        if(info == _info) return true;
+
+        if(info > _info) {
+            if (this._direita != null)
+                return this._direita.verificarSeExiste(info);
+        }
+        else if(this._esquerda != null) {
+            return this._esquerda.verificarSeExiste(info);
+        }
+
+        return false;
+    }
 
     public Node inserirEBalancear(int info) {
         if(info >= _info)
@@ -130,28 +121,6 @@ class Node {
         if (node == null)
             return new Node(info);
         return node.inserirEBalancear(info);
-    }
-
-    public Node balancear(int fb) {
-        System.out.println("Balanceado");
-
-        if(fb == 2) {
-            if (this._esquerda != null && this._esquerda.fatorDeBalanceamento() == -1)
-                this._esquerda = rotacionarAEsquerda(this._esquerda);
-            if (this._direita != null && this._direita.fatorDeBalanceamento() == -1)
-                this._direita = rotacionarAEsquerda(this._direita);
-            return rotacionarADireita(this);
-        }
-
-        if (this._esquerda != null && this._esquerda.fatorDeBalanceamento() == 1)
-            this._esquerda = rotacionarADireita(this._esquerda);
-        if (this._direita != null && this._direita.fatorDeBalanceamento() == 1)
-            this._direita = rotacionarADireita(this._direita);
-        return rotacionarAEsquerda(this);
-    }
-
-    private int fatorDeBalanceamento() {
-        return getAltura(_esquerda) - getAltura(_direita);
     }
 
     public boolean isFolha() {
@@ -175,8 +144,7 @@ class Node {
         if(node != null) {
             if(node._info == info) {
                 System.out.println("Removido: " + "\u001B[31m" + info + "\u001B[0m");
-                if(node.isFolha())
-                    return null;
+                if(node.isFolha()) return null;
                 return node.remover();
             }
 
@@ -190,13 +158,16 @@ class Node {
         Node removido;
 
         if(this._esquerda != null) {
-            if(this._esquerda._direita == null)
+            if(this._esquerda._direita == null) {
                 removido = removerComOMaiorSendoAEsquerda();
-            else
+            }
+            else {
                 removido = removerComMaiorDaEsquerda();
+            }
         }
-        else
+        else {
             removido = removerSemEsquerda();
+        }
 
         int fb = this.fatorDeBalanceamento();
         if (fb < -1 || fb > 1)
@@ -217,7 +188,7 @@ class Node {
         Node nodeRef = paiDoNodeRef._direita;
         this._info = nodeRef._info;
         paiDoNodeRef._direita = nodeRef._esquerda;
-        _esquerda = _esquerda.balancearEsquerda();
+        this._esquerda = _esquerda.balancearEsquerda();
         return this;
     }
 
@@ -263,5 +234,43 @@ class Node {
         if(this._esquerda != null) this._esquerda.posOrdem();
         if(this._direita != null) this._direita.posOrdem();
         System.out.print("\u001B[35m" + this._info + "\u001B[0m" + " | ");
+    }
+
+    private int fatorDeBalanceamento() {
+        return getAltura(_esquerda) - getAltura(_direita);
+    }
+
+    public Node balancear(int fb) {
+        System.out.println("Balanceado");
+
+        if(fb == 2) {
+            if (this._esquerda != null && this._esquerda.fatorDeBalanceamento() == -1)
+                this._esquerda = rotacionarAEsquerda(this._esquerda);
+            if (this._direita != null && this._direita.fatorDeBalanceamento() == -1)
+                this._direita = rotacionarAEsquerda(this._direita);
+            return rotacionarADireita(this);
+        }
+
+        if (this._esquerda != null && this._esquerda.fatorDeBalanceamento() == 1)
+            this._esquerda = rotacionarADireita(this._esquerda);
+        if (this._direita != null && this._direita.fatorDeBalanceamento() == 1)
+            this._direita = rotacionarADireita(this._direita);
+        return rotacionarAEsquerda(this);
+    }
+
+    private static Node rotacionarADireita(Node node) {
+        Node novaRaiz = node._esquerda;
+        Node temp = novaRaiz._direita;
+        novaRaiz._direita = node;
+        node._esquerda = temp;
+        return novaRaiz;
+    }
+
+    private static Node rotacionarAEsquerda(Node node) {
+        Node novaRaiz = node._direita;
+        Node temp = novaRaiz._esquerda;
+        novaRaiz._esquerda = node;
+        node._direita = temp;
+        return novaRaiz;
     }
 }
