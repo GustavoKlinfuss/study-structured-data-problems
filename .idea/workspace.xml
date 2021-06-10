@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a36b70a7-8201-449e-9905-64c8067f2e7d" name="Default Changelist" comment="mod">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AS2/AS2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AS2/AS2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AS2/AVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AS2/AVL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AulaRecursividade01/Recursividade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaDuplamenteEncadeada/ListaDuplamenteEncadeada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaDuplamenteEncadeada/NodeDE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaDuplamenteEncadeada/Principal.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,9 +181,9 @@
     <list>
       <item itemvalue="Application.AF4" />
       <item itemvalue="Application.AS1" />
+      <item itemvalue="Application.AS2" />
       <item itemvalue="Application.Principal" />
       <item itemvalue="Application.Recursividade" />
-      <item itemvalue="Application.AS2" />
     </list>
     <recent_temporary>
       <list>
@@ -279,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623027009842</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="# mais alguns ajustes">
+      <created>1623027875874</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623027875874</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,7 +331,8 @@
     <MESSAGE value="# adding gitignore" />
     <MESSAGE value="# ta funcionando" />
     <MESSAGE value="# reparando pequenas coisas" />
-    <option name="LAST_COMMIT_MESSAGE" value="# reparando pequenas coisas" />
+    <MESSAGE value="# mais alguns ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="# mais alguns ajustes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
