@@ -37,12 +37,8 @@ public class ListaEncadeada {
     }
 
     public void imprime() {
-        System.out.print("[");
-
         if(_lista != null)
             _lista.imprimirValorDoNode();
-
-        System.out.println("]");
     }
 
     public Node removePrimeiro() throws Exception {
@@ -84,5 +80,9 @@ public class ListaEncadeada {
         if(vazia())
             throw new Exception("Não há este nó");
         return _lista.getNode(info);
+    }
+
+    public boolean existe(int info) {
+        return _lista.existe(info);
     }
 }

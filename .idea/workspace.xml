@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a36b70a7-8201-449e-9905-64c8067f2e7d" name="Default Changelist" comment="mod">
+      <change afterPath="$PROJECT_DIR$/src/AS3/AS3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AS3/TabelaHash.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AulaRecursividade01/Recursividade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListaDuplamenteEncadeada/ListaDuplamenteEncadeada.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListaDuplamenteEncadeada/NodeDE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListaDuplamenteEncadeada/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AF3/ListaEncadeada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AF3/ListaEncadeada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AF3/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AF3/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +112,7 @@
       <recent name="C:\Projects\Personal\RPEC" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AS2">
+  <component name="RunManager" selected="Application.AS3">
     <configuration name="AF4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AF4.AF4" />
       <module name="RPEC" />
@@ -152,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Testes.Principal" />
+    <configuration name="AS3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AS3.AS3" />
       <module name="RPEC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Testes.*" />
+          <option name="PATTERN" value="AS3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,16 +182,16 @@
       <item itemvalue="Application.AF4" />
       <item itemvalue="Application.AS1" />
       <item itemvalue="Application.AS2" />
-      <item itemvalue="Application.Principal" />
       <item itemvalue="Application.Recursividade" />
+      <item itemvalue="Application.AS3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AS3" />
         <item itemvalue="Application.AS2" />
         <item itemvalue="Application.AF4" />
         <item itemvalue="Application.Recursividade" />
         <item itemvalue="Application.AS1" />
-        <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623027875874</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="# alteraciones">
+      <created>1623363891673</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1623363891673</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,18 +339,8 @@
     <MESSAGE value="# ta funcionando" />
     <MESSAGE value="# reparando pequenas coisas" />
     <MESSAGE value="# mais alguns ajustes" />
-    <option name="LAST_COMMIT_MESSAGE" value="# mais alguns ajustes" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AS2/AVL.java</url>
-          <line>122</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="# alteraciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="# alteraciones" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

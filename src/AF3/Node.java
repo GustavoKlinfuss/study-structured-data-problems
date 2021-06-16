@@ -61,4 +61,12 @@ public class Node {
             throw new Exception("A lista não possui esse nó");
         return _prox.getAnterior(node);
     }
+
+    public boolean existe(int info) {
+        if(_info == info)
+            return true;
+        if(_prox != null)
+            _prox.existe(info);
+        return false;
+    }
 }
